@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="description" content="TP n°04 - les formulaires">
+   <link rel="shortcut icon"
+      href="https://i0.wp.com/sciencereligionspectrum.org/wp-content/uploads/2015/03/favicon.ico.png?ssl=1">
+
+   <title>Triart Jean-Michel - Les formulaires</title>
+</head>
+
+<body>
+   <h1>Mon premier formulaire</h1>
+   <form action="index.html" method="GET">
+      <input type="radio" id="contactChoice1" name="contact" value="homme">
+      <label for="contactChoice1">Homme</label>
+
+      <input type="radio" id="contactChoice2" name="contact" value="femme">
+      <label for="contactChoice2">Femme</label>
+
+      <input type="radio" id="contactChoice3" name="contact" value="Nonrenseigné">
+      <label for="contactChoice3">Non renseigné</label>
+
+      <div><br>
+         <label for="votrenom">Nom :</label>
+         <input type="text" name="champ" id="votrenom">
+      </div><br>
+      <div>
+         <label for="votreprénom">Prénom :</label>
+         <input type="text" name="champ" id="votreprénom"><br>
+      </div><br>
+      <div>
+
+         <label for="tentacles">Age:</label>
+         <input type="number" id="tentacles" name="tentacles" min="16" max="100">
+      </div><br>
+      <div>
+         <label for="votreemail">Email :</label>
+         <input type="Email" name="champ" id="votreemail">
+      </div><br>
+      <div>
+         <label for="formtextarea">Message :</label>
+         <textarea id="formtextarea" name="montexte"></textarea>
+      </div>
+      <div><br>
+         <input type="checkbox" name="contact" value="homme">
+         <label for="contactChoice1">En cochant cette case j'accepte les conditions<br>
+            relatives à l'utilisation de mes données personnelles.<br>
+            (accéder aux mentions légales)</label>
+      </div><br>
+      <div>
+         <button type="submit">Envoyer le message</button>
+      </div>
+   </form>
+
+   <br>
+   <hr>
+   <h2>Ensemble de champs</h2>
+   <hr>
+   
+   <form>
+      <fieldset>
+         <legend>Mon second formulaire</legend>
+         <fieldset>
+            <legend>Identité</legend>
+            <div>
+               <input type="radio" id="contactChoice4" name="contact" value="homme">
+               <label for="contactChoice4">Homme</label>
+
+               <input type="radio" id="contactChoice5" name="contact" value="femme">
+               <label for="contactChoice5">Femme</label>
+
+               <input type="radio" id="contactChoice6" name="contact" value="Nonrenseigné">
+               <label for="contactChoice6">Non renseigné</label>
+            </div><br>
+            <div>
+               <label for="votrenom1">Nom :</label>
+               <input type="text" name="champ" id="votrenom1" placeholder="ex : Deschamps">
+            </div><br>
+            <div>
+               <label for="votreprénom1">Prénom :</label>
+               <input type="text" name="champ" id="votreprénom1" placeholder="ex : Didier"><br>
+            </div><br>
+            <div>
+               <label for="votreage">Age :</label>
+               <input type="text" id="votreage" placeholder="ex : 58">
+            </div><br>
+         </fieldset>
+         <fieldset>
+            <legend>Situation personnelle</legend>
+            <div>
+               <input type="radio" id="contactChoice7" name="contact" value="Célibataire">
+               <label for="contactChoice7">Célibataire</label>
+
+               <input type="radio" id="contactChoice8" name="contact" value="Marié">
+               <label for="contactChoice8">Marié</label>
+
+               <input type="radio" id="contactChoice9" name="contact" value="Veuf">
+               <label for="contactChoice9">Veuf</label>
+
+               <input type="radio" id="contactChoice10" name="contact" value="Union libre">
+               <label for="contactChoice10">Union libre</label>
+               <br>
+            </div>
+         </fieldset>
+         <fieldset>
+            <legend>Contact</legend>
+            <div>
+                  <label for="votretéléphone">Téléphone :</label>
+                  <input type="text" id="votretéléphone" placeholder="ex : 0625487595">
+            </div><br>
+            <div>
+               <label for="votreEmail1">Email :</label>
+               <input type="Email" id="votreEmail1" placeholder="ex : d.d@gmail.com"><br>
+            </div><br>
+            <div><br>
+               <input type="checkbox" id="contactChoice11" name="contact" value="homme">
+               <label for="contactChoice11">En cochant cette case je confirme que les données renseignées<br>
+                  sont exactes.</label>
+            </div><br>
+            <div>
+               <button type="submit">Transmettre mes coordonnées</button>
+            </div>
+         </fieldset>
+      </fieldset>
+   </form>
+</body>
+
+</html>

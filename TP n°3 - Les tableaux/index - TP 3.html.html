@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="TP n°03 - Les tableaux">
+    <link rel="shortcut icon"
+        href="https://i0.wp.com/sciencereligionspectrum.org/wp-content/uploads/2015/03/favicon.ico.png?ssl=1">
+
+	<title>TP n°03 - Les tableaux</title>
+
+
+</head>
+
+<body>
+	<h1 id="titre-1">TRIART Jean-Michel - Les tableaux.</h1>
+	<h2 id="sous-titre-1">Mon premier tableau</h2>
+
+	<table border="1">
+		<thead>
+			<tr>
+				<td>ID</td>
+				<td>Game</td>
+				<td>Console</td>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>001</td>
+				<td>Pkmn Ruby</td>
+				<td>Game Boy Advance</td>
+			</tr>
+			<tr>
+				<td>002</td>
+				<td>Raynman 2</td>
+				<td>Dreamcast</td>
+			</tr>
+			<tr>
+				<td>003</td>
+				<td>Wario Ware</td>
+				<td>Game Boy Advance</td>
+			</tr>
+			<tr>
+				<td>004</td>
+				<td>Sonic Advt 2</td>
+				<td>Game Boy Advance</td>
+			</tr>
+			<tr>
+				<td>005</td>
+				<td>... ... ...</td>
+				<td>... ... ...</td>
+			</tr>
+		</tbody>
+	</table>
+	<h2 id="sous-titre-2">Mon second tableau</h2>
+	<table border="2">
+		<thead>
+
+			<tr>
+				<td>ID</td>
+				<td>Game</td>
+				<td>Console</td>
+				<td>Year</td>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>002</td>
+				<td>Raynman 2</td>
+				<td rowspan="2">Dreamcast</td>
+				<td>2000</td>
+			</tr>
+			<tr>
+				<td>004</td>
+				<td>Sonic Advt 2</td>
+				<td>2001</td>
+			</tr>
+			<tr>
+				<td>001</td>
+				<td>Pkmn Ruby</td>
+				<td rowspan="2">Game Boy Advance</td>
+				<td rowspan="2">2003</td>
+			</tr>
+			<tr>
+				<td>003</td>
+				<td>Wario Ware</td>
+			</tr>
+			<tr>
+				<td>005</td>
+				<td>... ... ...</td>
+				<td>... ... ...</td>
+				<td>... ... ...</td>
+			</tr>
+		</tbody>
+	</table>
+	<h2 id="sous-titre-3">Mon troisième tableau</h2>
+	<table border="2">
+		<thead>
+			<tr>
+				<td>ID</td>
+				<td>Game</td>
+				<td>Console</td>
+				<td>Price</td>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>001</td>
+				<td>Pkmn Ruby</td>
+				<td>Game Boy Advance</td>
+				<td>30.00€</td>
+			</tr>
+			<tr>
+				<td>002</td>
+				<td>Raynman 2</td>
+				<td>Dreamcast</td>
+				<td>40.00€</td>
+			</tr>
+			<tr>
+				<td>003</td>
+				<td>Wario Ware</td>
+				<td>Game Boy Advance</td>
+				<td>25.00€</td>
+			</tr>
+			<tr>
+				<td>004</td>
+				<td>Sonic Advt 2</td>
+				<td>Game Boy Advance</td>
+				<td>40.00€</td>
+			</tr>
+			<tr>
+				<td>Articles</td>
+				<td colspan="3">Rayman 2 + Sonic Advt 2</td>
+			</tr>
+		</tbody>
+		<tfoot>
+			<tr>
+				<td colspan="3">Total</td>
+				<td>80.00</td>
+			</tr>
+		</tfoot>
+	</table>
+
+	<h2 id="sous-titre-4">Mon emploi du temps</h2>
+	<table border="2">
+		<thead>
+			<tr>
+				<td>X</td>
+				<td>Lundi</td>
+				<td>Mardi</td>
+				<td>Mercredi</td>
+				<td>Jeudi</td>
+				<td>Vendredi</td>
+				<td>WEEK-END</td>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td rowspan="2">AM</td>
+				<td rowspan="2">Rentrée</td>
+				<td>HTML</td>
+				<td>CSS</td>
+				<td rowspan="4">Libre</td>
+				<td>TP n°5</td>
+				<td rowspan="4">NETFLIX & CHILL</td>
+			</tr>
+			<tr>
+				<td>TP n°2</td>
+				<td>TP n°4</td>
+				<td>TP n°6</td>
+			</tr>
+			<tr>
+				<td rowspan="2">PM</td>
+				<td>HTML</td>
+				<td rowspan="2">TP n°3</td>
+				<td rowspan="2">Bilan</td>
+				<td>JS</td>
+			</tr>
+			<tr>
+				<td>TP n°1</td>
+				<td>PHP</td>
+			</tr>
+		</tbody>
+	</table>
+</body>
+
+</html>
